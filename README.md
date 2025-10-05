@@ -1,2 +1,2 @@
-# Free Code Camp Daily Challenges in cpp.
+# Free Code Camp Daily Challenges (C++).
 Short programming problems by Free Code Camp solved with Cpp.
