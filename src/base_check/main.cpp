@@ -3,24 +3,48 @@
 #include <array>
 #include <string>
 #include <algorithm>
+#include <cctype>
+#include <unordered_map>
 
 using namespace std;
 
-string allowedChars(int base) {
-    if (base < 2 || base > 36) return "";
-    const string digits = "0123456789abcdefghijklmnopqrstuvwxyz";
-    return digits.substr(0, base);
-}
+//string allowedChars(int base) {
+//    if (base < 2 || base > 36) return "";
+//    const string digits = "0123456789abcdefghijklmnopqrstuvwxyz";
+//    return digits.substr(0, base);
+//}
+
+//bool isValidNumber(const string& str, int base) {
+//    string lowered = str;
+//    transform(lowered.begin(), lowered.end(), lowered.begin(),
+//        [](unsigned char c){return tolower(c);});
+//    const string allowed = allowedChars(base);
+//    for (char c : lowered) {
+//        if (allowed.find(c) == string::npos) {
+//            return false;
+//        }
+//    }
+//    return true;
+//}
 
 bool isValidNumber(const string& str, int base) {
-    string lowered = str;
-    transform(lowered.begin(), lowered.end(), lowered.begin(),
-        [](unsigned char c){return tolower(c);});
-    const string allowed = allowedChars(base);
-    for (char c : lowered) {
-        if (allowed.find(c) == string::npos) {
-            return false;
+    if (base < 2 || base > 36) return false;
+
+    static const unordered_map<int, string> baseDigits = []{
+        unordered_map<int, string> m;
+        for (int b = 2; b <= 36; ++b) {
+            string digits;
+            for (int i = 0; i < b; ++i)
+                digits += (i < 10) ? ('0' + i) : ('a' + i - 10);
+            m[b] = digits;
         }
+        return m;
+    }();
+
+    const string& digits = baseDigits.at(base);
+    for (char c : str) {
+        char lc = tolower(static_cast<unsigned char>(c));
+        if (digits.find(lc) == string::npos) return false;
     }
     return true;
 }
