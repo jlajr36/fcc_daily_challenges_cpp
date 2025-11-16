@@ -1,0 +1,67 @@
+# depslib dependency file v1.0
+1759708991 source:c:\users\horiz\desktop\projects\fcc_daily_challenges_cpp\src\vowel_balance\main.cpp
+	<iostream>
+	<string>
+	<cctype>
+	<array>
+
+1759972433 source:c:\users\horiz\desktop\projects\fcc_daily_challenges_cpp\src\base_check\main.cpp
+	<iostream>
+	<tuple>
+	<array>
+	<string>
+	<algorithm>
+	<cctype>
+	<unordered_map>
+
+1760101640 source:c:\users\horiz\desktop\projects\fcc_daily_challenges_cpp\src\fibonacci_seq\main.cpp
+	<iostream>
+	<vector>
+	<array>
+	<cstdint>
+	<tuple>
+
+1760143638 source:c:\users\horiz\desktop\projects\fcc_daily_challenges_cpp\src\space_jam\main.cpp
+	<algorithm>
+	<cctype>
+	<iostream>
+	<string>
+	<array>
+
+1760403715 source:c:\users\horiz\desktop\projects\fcc_daily_challenges_cpp\src\jbelmud_text\main.cpp
+	<iostream>
+	<string>
+	<vector>
+	<sstream>
+	<algorithm>
+
+1760492188 source:c:\users\horiz\desktop\projects\fcc_daily_challenges_cpp\src\anagram\main.cpp
+	<iostream>
+	<string>
+	<algorithm>
+	<cctype>
+
+1760663949 source:c:\users\horiz\desktop\projects\fcc_daily_challenges_cpp\src\targeted_sum\main.cpp
+	<iostream>
+	<vector>
+	<unordered_map>
+
+1761133345 source:c:\users\horiz\desktop\projects\fcc_daily_challenges_cpp\src\factorializer\main.cpp
+	<iostream>
+	<cstdint>
+	<stdexcept>
+
+1761138240 source:c:\users\horiz\desktop\projects\fcc_daily_challenges_cpp\src\sum_of_squares\main.cpp
+	<iostream>
+	<vector>
+
+1761521487 source:c:\users\horiz\desktop\projects\fcc_daily_challenges_cpp\src\squares_with_three\main.cpp
+	<iostream>
+
+1761787490 source:c:\users\horiz\desktop\projects\fcc_daily_challenges_cpp\src\decoder\main.cpp
+	<iostream>
+
+1763258511 source:c:\users\horiz\desktop\projects\fcc_daily_challenges_cpp\src\822_decoder\main.cpp
+	<iostream>
+	<string>
+
