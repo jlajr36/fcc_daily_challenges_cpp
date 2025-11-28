@@ -72,3 +72,9 @@
 1763343504 source:c:\users\horiz\desktop\projects\fcc_daily_challenges_cpp\src\824_character_battle\main.cpp
 	<iostream>
 
+1764293917 source:c:\users\horiz\desktop\projects\fcc_daily_challenges_cpp\src\826_reverse_parenthesis\main.cpp
+	<iostream>
+	<vector>
+	<string>
+	<algorithm>
+
