@@ -20,11 +20,13 @@ vector<int> find_target(vector<int> nums, int target) {
     return {};
 }
 
+void check(bool condition) {
+    cout << (condition ? "PASS" : "FAIL") << endl;
+}
+
 int main() {
-    //vector<int> points = find_target({2, 7, 11, 15}, 9);        //[0, 1]
-    //vector<int> points = find_target({3, 2, 4, 5}, 6);            //[1, 2]
-    vector<int> points = find_target({1, 3, 5, 6, 7, 8}, 15);   //[4, 5]
-    //vector<int> points = find_target({1, 3, 5, 7}, 14);         //[]
-    cout << points[0] << ", " << points[1];
-    return 0;
+    check(find_target({2, 7, 11, 15}, 9) == vector<int>{0, 1});
+    check(find_target({3, 2, 4, 5}, 6) == vector<int>{1, 2});
+    check(find_target({1, 3, 5, 6, 7, 8}, 15) == vector<int>{4, 5});
+    check(find_target({1, 3, 5, 7}, 14) == vector<int>{});
 }
