@@ -32,7 +32,7 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="src/907_roman_num_parser/main.cpp" />
+		<Unit filename="src/908_acronym_builder/main.cpp" />
 		<Extensions />
 	</Project>
 </CodeBlocks_project_file>
