@@ -136,13 +136,15 @@
 	<algorithm>
 	<numeric>
 
-1766868019 source:c:\users\horiz\desktop\projects\fcc_daily_challenges_cpp\src\914_word_freq\main.cpp
+1766868334 source:c:\users\horiz\desktop\projects\fcc_daily_challenges_cpp\src\914_word_freq\main.cpp
 	<iostream>
 	<vector>
 	<string>
-	<cstring>
 	<algorithm>
 	<sstream>
 	<cctype>
 	<unordered_map>
+
+1767219903 source:c:\users\horiz\desktop\projects\fcc_daily_challenges_cpp\src\915_thermostat_adjuster\main.cpp
+	<iostream>
 
