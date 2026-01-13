@@ -148,3 +148,8 @@
 1767219903 source:c:\users\horiz\desktop\projects\fcc_daily_challenges_cpp\src\915_thermostat_adjuster\main.cpp
 	<iostream>
 
+1768010883 source:c:\users\horiz\desktop\projects\fcc_daily_challenges_cpp\src\916_sentence_capitalizer\main.cpp
+	<iostream>
+	<string>
+	<cctype>
+
