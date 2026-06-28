@@ -32,7 +32,7 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="src/922_dig_vs_letters/main.cpp" />
+		<Unit filename="src/923_string_mirror/main.cpp" />
 		<Extensions />
 	</Project>
 </CodeBlocks_project_file>
