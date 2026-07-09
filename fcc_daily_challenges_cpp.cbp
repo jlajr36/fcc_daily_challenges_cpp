@@ -32,7 +32,7 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="src/925_2nd_largest/main.cpp" />
+		<Unit filename="src/926_speeding/main.cpp" />
 		<Extensions />
 	</Project>
 </CodeBlocks_project_file>
